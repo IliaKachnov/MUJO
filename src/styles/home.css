@@ -1,0 +1,383 @@
+.home__container {
+  height: 100%;
+  background-color: #FFFEF3;
+}
+.logo__wrapper {
+  padding: 80px 60px;
+}
+
+.text__stress {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 35px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #333333;
+  max-width: 300px;
+}
+.text__natural {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #333333;
+  max-width: 220px;
+}
+.logo__text {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 300px;
+  padding: 60px 30px 20px 30px;
+}
+.background__wrapper {
+  padding: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.background {
+  height: 100%;
+  width: 100%;
+}
+
+
+.ritual__container {
+  max-width: 80rem;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 150px;
+  gap: 50px;
+  position: relative;
+}
+.ritual__title {
+  font-weight: 800;
+  font-size: 120px;
+  line-height: 100px;
+  text-transform: uppercase;
+  color: #333333;
+  max-width: 800px;
+  letter-spacing: 3px;
+}
+.ritual__text {
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 24px;
+  color: #333333;
+  max-width: 480px;
+}
+.ritual__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.ritual__about {
+  cursor: pointer;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 18px;
+  color: #333333;
+  border-bottom: #999993 1px solid;
+  padding-bottom: 3px;
+  opacity: 1;
+  transition: all .2s ease;
+}
+.ritual__about:hover {
+  opacity: .5;
+}
+.ritual__buy {
+  color: black;
+  border: #999993 1px solid;
+  width: 200px;
+  height: 60px;
+  padding-top: 15px;
+  text-align: center;
+  transition: all .3s ease;
+}
+.ritual__buy:hover {
+  color: white;
+  background-color: black;
+  transform: translateY(5px);
+}
+.ritual__buy:active {
+  transform: scale(.9);
+}
+.coffee1 {
+  position: absolute;
+  left: 30%;
+  top: 13%;
+}
+.coffee2 {
+  position: absolute;
+  left: 48%;
+  top: 20%;
+}
+.ingredients__wrapper {
+  max-width: 60rem;
+  margin: 0 auto;
+  height: 100%;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 150px;
+  gap: 50px;
+  position: relative;
+}
+
+.ingredients__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #333333;
+}
+.ingredient {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px 0px;
+  border-bottom: #999993 1px solid;
+}
+.ingredients__text {
+  font-size: 20px;
+  font-weight: 200;
+}
+.coffee3 {
+  position: absolute;
+  left: 79%;
+  top: 20%;
+  z-index: 3;
+}
+.powder {
+  position: absolute;
+  left: 50%;
+  top: 33%;
+  z-index: 2;
+}
+
+
+.scoop__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.scoop__text-first {
+  padding-top: 150px;
+  font-weight: 800;
+  font-size: 140px;
+  line-height: 125px;
+  text-transform: uppercase;
+  color: #333333;
+}
+.scoop__text-second {
+  font-weight: 800;
+  font-size: 140px;
+  line-height: 125px;
+  text-transform: uppercase;
+  color: #787C63;
+  margin-left: 650px;
+  margin-bottom: 150px;
+}
+
+
+.prep {
+  padding: 150px 0;
+}
+.prep__container {
+  max-width:90rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 80px;
+  padding-bottom: 50px;
+}
+.prep__learnMore {
+  margin-top: 30px  ;
+  color: #333333;
+  border: #C6C6BD 1px solid;
+  width: 200px;
+  height: 60px;
+  padding-top: 15px;
+  text-align: center;
+  transition: all .3s ease;
+}
+.prep__learnMore:hover {
+  border: none;
+  color: white;
+  background-color: black;
+  transform: translateY(5px);
+}
+.prep__learnMore:active {
+  transform: scale(.9);
+}
+@media (max-width: 1250px) {
+  .ritual__title,
+  .ritual__text,
+  .ritual__wrapper {
+    padding: 0 30px;
+  }
+  .how__buy {
+    margin-left: 30px;
+  }
+  .how__title, 
+  .how__text,
+  .how__img {
+    padding: 0 30px;
+  }
+  .prep__learnMore {
+    margin-left: 30px;
+  }
+  
+}
+@media (max-width:1050px) {
+  .ingredient {
+    margin-left: 30px;
+  }
+  .scoop__text-second {
+    margin-left: 40px;
+  }
+}
+@media (max-width: 760px) {
+  .scoop__text-second {
+    margin-left: 0;
+    font-size: 120px;
+  }
+  .how__container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .how__item {
+    max-width: 600px;
+  }
+  .how__title,
+  .how__text {
+    padding-top: 30px;
+    max-width: 100%;
+  }
+  .how__buy {
+    width: 90%;
+  }
+  .prep__container {
+    flex-direction: column;
+  }
+  .how__img {
+    padding: 20px 90px;
+  }
+  .prep {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  .prep__learnMore {
+    width: 90%;
+  }
+}
+@media (max-width: 600px) {
+  .logo__text {
+    flex-direction: column;
+    gap: 60px;
+  }
+  .coffee1 {
+    z-index: 0;
+  }
+  .ritual__container {
+    margin-top: 50px;
+  }
+  .ritual__title {
+    font-size: 70px;
+    line-height: 70px;
+    padding: 40px;
+    z-index: 4;
+  }
+  .ritual__text {
+    padding: 0px 50px;
+    z-index: 4;
+  }
+  .ritual__wrapper {
+    flex-direction: column;
+    padding: 0 50px;
+  }
+  .ritual__about {
+    z-index: 4;
+  }
+  .coffee1 {
+    left: 8%;
+  }
+  .coffee2 {
+    left: 35%;
+  }
+  .ingredients__wrapper {
+    align-items: center;
+    height: 100%;
+    padding: 20px 0;
+    margin-top: 100px;
+    margin-bottom: 450px;
+  }
+  .ingredients__title,
+  .ingredients__text {
+    z-index: 4;
+  }
+  .coffee3 {
+    left: 20%;
+    top: 100%;
+  }
+  .powder {
+    top: 105%;
+    left: 10%;
+  }
+  
+  .scoop__text-first {
+    padding-top: 50px;
+    font-size: 140px;
+    max-width: 500px;
+    text-align: center;
+  }
+  .scoop__text-second {
+    padding: 20px 0px;
+    margin: 0;
+    text-align: center;
+  }
+  .how__container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .how__img {
+    padding: 40px;
+  }
+  .how__title {
+    font-size: 40px;
+    max-width: 100%;
+    padding: 40px;
+  }
+  .how__text {
+    max-width: 100%;
+    padding: 0px 40px 20px 40px;
+  }
+  .how__item {
+    gap: 30px;
+  }
+  .how__buy {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .prep__container {
+    flex-direction: column;
+  }
+  .prep__learnMore {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .how__img {
+    padding: 0px 40px;
+  }
+}
+@media (max-width: 400px) {
+  .prep {
+    padding-bottom: 50px;
+  }
+}

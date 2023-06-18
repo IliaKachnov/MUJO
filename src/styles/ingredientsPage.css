@@ -1,0 +1,63 @@
+.main__about {
+  background-color: #FFFEF3;
+}
+.logo__wrapper {
+  padding: 80px 60px;
+}
+.about__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.text__stress {
+  padding: 10px 0;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 45px;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  color: #333333;
+  max-width: 550px;
+}
+.text__natural {
+  font-weight: 200;
+  font-size: 30.5px;
+  line-height: 38px;
+  color: #333333;
+  max-width: 520px;
+}
+.logo__text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 60px 30px 20px 30px;
+}
+.background__wrapper {
+  padding: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.background {
+  height: 100%;
+  width: 100%;
+}
+.all-ingredients {
+  height: 100%;
+  margin-bottom: 50px;
+}
+
+.all-ingredients__container {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 450px));
+  grid-auto-rows: 980px;
+  grid-gap: 5rem;
+  color: black;
+  justify-content: center;
+  height: 100%;
+}
+@media (max-width: 500px) {
+  .all-ingredients__container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
+    grid-auto-rows: 1000px;
+  }
+}

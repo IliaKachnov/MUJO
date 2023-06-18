@@ -1,0 +1,51 @@
+.ingredient__item {
+  padding: 10px;
+}
+.ingredient__name {
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 35px;
+  text-transform: uppercase;
+  color: #333333;
+}
+.ingredient__position {
+  display: flex;
+  gap: 30px;
+}
+.ingredient__about-container {
+  width: 140px;
+}
+.ingredient__about {
+  padding: 10px 0;
+  font-weight: 500;
+  font-size: 20.5px;
+  line-height: 32px;
+  color: #333333;
+}
+.ingredient__answer {
+  padding: 10px 0;
+  width: 434px;
+  font-weight: 400;
+  font-size: 20.5px;
+  line-height: 35px;
+  color: #999993;
+}
+.ingredient__list {
+  margin-left: 35px;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 500px) {
+  .ingredient__name {
+    padding-left: 10px;
+  }
+  .ingredient__about {
+    font-size: 18px;
+  }
+  .ingredient__answer {
+    font-size: 18px;
+  }
+  .ingredient__position {
+    gap: 10px;
+  }
+}

@@ -1,0 +1,31 @@
+.ingredient__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  transition: .3s all ease;
+}
+.ingredient__img {
+  height: 160px;
+  width: 160px;
+
+}
+.ingredient__title {
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.ingredient__dose {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 16px;
+  text-align: center;
+  color: #999993;
+}
+.ingredient__container:hover {
+  transform: scale(1.2);
+}

@@ -1,0 +1,31 @@
+.recipe__name {
+  padding: 40px 0;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #333333;
+}
+.recipe__items {
+  display: flex;
+  gap: 35px;
+}
+.list__dose,
+.list__ingredient {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.dose__item {
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 20px;
+  color: #333333;
+  opacity: 0.5;
+}
+.recipe__ingredient {
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 20px;
+  color: #333333;
+}

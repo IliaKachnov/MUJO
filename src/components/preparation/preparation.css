@@ -1,0 +1,67 @@
+.prep {
+  padding: 150px 0;
+}
+.prep__container {
+  max-width:90rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 80px;
+  padding-bottom: 50px;
+}
+.prep__learnMore {
+  margin-top: 30px  ;
+  color: #333333;
+  border: #C6C6BD 1px solid;
+  width: 200px;
+  height: 60px;
+  padding-top: 15px;
+  text-align: center;
+  transition: all .3s ease;
+}
+.prep__learnMore:hover {
+  border: none;
+  color: white;
+  background-color: black;
+  transform: translateY(5px);
+}
+.prep__learnMore:active {
+  transform: scale(.9);
+}
+@media (max-width: 1050px) {
+  .prep__learnMore {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .prep__container {
+    flex-direction: column;
+  }
+  .how__container {
+    flex-direction: column-reverse;
+  }
+  .how__buy {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .prep__container,
+  .how__text,
+  .how__title {
+    max-width: 653px;
+    padding: 0 13px;
+  }
+  .how__img {
+    padding: 13px;
+  }
+  
+}
+@media (max-width: 600px) {
+  .prep {
+    padding-top: 50px;
+  }
+  .how__img {
+    object-fit: fill;
+    width: 315px;
+    height: 315px;
+  }
+}
